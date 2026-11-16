@@ -154,10 +154,6 @@ docs/                   the figures of this README
 pyproject.toml          lint settings (Ruff)
 ```
 
-## Context
-
-A solo final project for the Digital Image Processing course at Azrieli College, 2026.
-
 ## License
 
 [MIT](LICENSE)
