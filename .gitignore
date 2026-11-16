@@ -1,0 +1,13 @@
+# Environment and caches
+.venv/
+__pycache__/
+*.pyc
+.vscode/
+
+# Data, results and private notes: never published (real plates, real video)
+data/
+outputs/
+inputs/
+PROJECT_SUMMARY.md
+*.mp4
+!examples/gate_example.mp4

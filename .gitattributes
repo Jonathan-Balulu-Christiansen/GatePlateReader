@@ -1,0 +1,4 @@
+# LF in the repository whatever the machine's core.autocrlf; binaries untouched.
+* text=auto eol=lf
+*.png binary
+*.mp4 binary

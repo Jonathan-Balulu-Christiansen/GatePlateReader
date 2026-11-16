@@ -1,0 +1,10 @@
+# Lint settings, pinned here so editor warnings match the command line.
+[tool.ruff]
+target-version = "py312"
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP"]  # pycodestyle, pyflakes, warnings, import sorting, pyupgrade
+
+[tool.ruff.lint.isort]
+known-first-party = ["build_templates", "digits_recognition", "evaluate", "plate_detection", "trigger_burst"]
